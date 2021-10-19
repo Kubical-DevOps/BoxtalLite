@@ -1,0 +1,105 @@
+{
+  "shipment": {
+    "externalId": "string",
+    "dropOffPointCode": "string",
+    "pickupPointCode": "string",
+    "fromAddress": {
+      "type": "RESIDENTIAL",
+      "contact": {
+        "firstName": "string",
+        "lastName": "string",
+        "company": "string",
+        "email": "user@example.com",
+        "phone": "string"
+      },
+      "location": {
+        "number": 4,
+        "street": "boulevard des capucines",
+        "city": "Paris",
+        "postalCode": 75009,
+        "state": "string",
+        "countryIsoCode": "FR"
+      },
+      "additionalInformation": "string"
+    },
+    "toAddress": {
+      "type": "RESIDENTIAL",
+      "contact": {
+        "firstName": "string",
+        "lastName": "string",
+        "company": "string",
+        "email": "user@example.com",
+        "phone": "string"
+      },
+      "location": {
+        "number": 4,
+        "street": "boulevard des capucines",
+        "city": "Paris",
+        "postalCode": 75009,
+        "state": "string",
+        "countryIsoCode": "FR"
+      },
+      "additionalInformation": "string"
+    },
+    "returnAddress": {
+      "type": "RESIDENTIAL",
+      "contact": {
+        "firstName": "string",
+        "lastName": "string",
+        "company": "string",
+        "email": "user@example.com",
+        "phone": "string"
+      },
+      "location": {
+        "number": 4,
+        "street": "boulevard des capucines",
+        "city": "Paris",
+        "postalCode": 75009,
+        "state": "string",
+        "countryIsoCode": "FR"
+      },
+      "additionalInformation": "string"
+    },
+    "packages": [
+      {
+        "type": "PARCEL",
+        "externalId": "string",
+        "weight": 0,
+        "length": 0,
+        "width": 0,
+        "height": 0,
+        "content": {
+          "id": "string",
+          "description": "string"
+        },
+        "value": {
+          "value": 0,
+          "currency": "EUR"
+        },
+        "stackable": true
+      }
+    ],
+    "customsDeclaration": {
+      "reason": "SALE",
+      "articles": [
+        {
+          "description": "a book",
+          "originCountry": "EEE",
+          "quantity": 2,
+          "unitWeight": 0.251,
+          "unitValue": {
+            "value": 0,
+            "currency": "EUR"
+          },
+          "tariffNumber": "string",
+          "packageExternalId": "string"
+        }
+      ]
+    }
+  },
+  "shippingOfferCode": "string",
+  "shippingOfferId": "string",
+  "expectedTakingOverDate": "2021-10-18",
+  "labelType": "PDF_A4",
+  "insured": false
+}

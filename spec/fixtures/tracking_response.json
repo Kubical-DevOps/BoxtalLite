@@ -1,0 +1,23 @@
+{
+  "timestamp": "string",
+  "trackings": [
+    {
+      "packageId": "string",
+      "packageExternalId": "string",
+      "trackingNumber": "string",
+      "packageTrackingUrl": "string",
+      "trackingDateTime": "2021-10-18T17:04:08Z",
+      "status": "ANNOUNCED",
+      "message": "string",
+      "isFinal": true,
+      "history": [
+        {
+          "trackingDateTime": "2021-10-18T17:04:08Z",
+          "status": "ANNOUNCED",
+          "message": "string",
+          "isFinal": true
+        }
+      ]
+    }
+  ]
+}

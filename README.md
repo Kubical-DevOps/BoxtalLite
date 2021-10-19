@@ -27,6 +27,8 @@ end
 #API v1
 BoxtalLite.configure do |config| 
   config.v1_api_key = ENV['BOXTAL_V1_API_KEY']
+  config.v1_creds = ENV['BOXTAL_V1_CREDS']
+  config.testing = true
 end
 ```
 
@@ -36,7 +38,7 @@ API key can be passed via options too:
 BoxtalLite::Service.all(query, api_key: 'mykey')
 ```
 
-Boxtal's V1 API (only V1) uses HTTP Basic authentication. User's credentials (base64) should be passed using creds: 
+Boxtal's V1 API (only V1) uses HTTP Basic authentication. User's credentials (base64) can be passed via options too: 
 
 ```ruby
 BoxtalLite::Service.all(query, creds: 'mycreds')
@@ -53,8 +55,7 @@ BoxtalLite::Service.all(query, creds: 'mycreds')
       'recipient.country': 'FR', 'recipient.zipcode': '69100', 'recipient.type': 'individual', #to
       'colis_0.largeur': 10 ,'colis_0.hauteur': 10, 'colis_0.longueur': 10, 'colis_0.poids': 0.5, 'colis.valeur': 15, #dimensions
       'collection_date': '2021-10-18', 'content_code': '40120' 
-    } , creds: base64(<username:password>)
-  )
+    })
 ```
 To understand the params, please refer to : https://www.boxtal.com/fr/fr/api
 
@@ -78,7 +79,7 @@ Subcribe to Boxtal's webhooks for Label/Document creation or for shipment tracki
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kubical/boxtal_lite.git
+Bug reports and pull requests are welcome on GitHub at https://github.com/Kubical-DevOps/BoxtalLite
 
 
 ## License

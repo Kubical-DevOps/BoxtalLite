@@ -63,9 +63,10 @@ require 'nokogiri'
       end
 
       def v1_connection(api_key, creds)
-
         token = api_key || BoxtalLite.config.v1_api_key
-        raise(Error, 'API key is not set') unless token
+        creds = creds || BoxtalLite.config.v1_creds
+        raise(Error, 'v1 API key is not set') unless token
+        raise(Error, 'v1 Creds are not set') unless creds
         @connection = build_v1_connection
         @connection.headers['Access_key'] = token
         @connection.headers['Authorization'] = "Basic #{creds}"

@@ -1,0 +1,13 @@
+{
+
+    "timestamp": "string",
+    "subscription": 
+
+    {
+        "id": "string",
+        "eventType": "DOCUMENT_CREATED",
+        "callbackUrl": "string",
+        "status": "ACTIVE"
+    }
+
+}

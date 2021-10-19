@@ -1,0 +1,19 @@
+{
+  "timestamp": "string",
+  "shippingOrder": {
+    "id": "RandomID",
+    "status": "PENDING",
+    "shipmentId": "string",
+    "shippingOfferCode": "string",
+    "expectedTakingOverDate": "2021-10-18",
+    "estimatedDeliveryDate": "2021-10-18",
+    "deliveryPriceExclTax": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "insurancePriceExclTax": {
+      "value": 0,
+      "currency": "EUR"
+    }
+  }
+}

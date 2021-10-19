@@ -1,0 +1,3864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <cotation>
+    <shipment>
+      <package>
+        <weight>0.5</weight>
+        <length>10</length>
+        <width>10</width>
+        <height>10</height>
+        <quantity>1</quantity>
+      </package>
+      <content>40120</content>
+      <collection-date>2021-10-18</collection-date>
+      <delay>aucun</delay>
+      <shipper>
+        <type>entreprise</type>
+        <country>FR</country>
+        <zipcode>75009</zipcode>
+      </shipper>
+      <recipient>
+        <type>particulier</type>
+        <country>FR</country>
+        <zipcode>69100</zipcode>
+      </recipient>
+      <offer type="array">
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>MONR</code>
+            <label>Mondial Relay</label>
+            <logo>https://resource.boxtal.com/images/carriers/monr.png</logo>
+          </operator>
+          <service>
+            <code>CpourToi</code>
+            <label>C.pourToi®</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>3.48</tax-exclusive>
+            <tax-inclusive>4.18</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous déposez votre envoi dans un Point Relais® à partir du 19/10/2021</label>
+              <label>Le Point Relais® d'arrivée peut être choisi par le destinataire</label>
+              <label>Mise à disposition en Point Relais® à partir du 23/10/2021 avant 15h. L'envoi reste à disposition pendant 14 jours.</label>
+              <label>Délai non garanti : le destinataire est informé de la mise à disposition de l'envoi par email</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi : indemnité de 25€ par colis</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>MONR-77564</value>
+                      <value>MONR-13085</value>
+                      <value>MONR-84697</value>
+                      <value>MONR-07169</value>
+                      <value>MONR-06721</value>
+                      <value>MONR-07109</value>
+                      <value>MONR-88879</value>
+                      <value>MONR-90962</value>
+                      <value>MONR-04689</value>
+                      <value>MONR-05736</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+              <parameter>
+                <code>retrait.pointrelais</code>
+                <label>Choix du point relais d&amp;apos;arrivée</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>MONR-01825</value>
+                      <value>MONR-75372</value>
+                      <value>MONR-03393</value>
+                      <value>MONR-68837</value>
+                      <value>MONR-09002</value>
+                      <value>MONR-05680</value>
+                      <value>MONR-02586</value>
+                      <value>MONR-71790</value>
+                      <value>MONR-53929</value>
+                      <value>MONR-06019</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>DROPOFF_POINT</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Vous déposez votre envoi dans un Point Relais® à partir du 19/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>PICKUP_POINT</code>
+              <label>retrait en point relais</label>
+            </type>
+            <date>2021-10-23</date>
+            <label>Le Point Relais® d'arrivée peut être choisi par le destinataire</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>SOGP</code>
+            <label>Relais Colis</label>
+            <logo>https://resource.boxtal.com/images/carriers/sogp.png</logo>
+          </operator>
+          <service>
+            <code>RelaisColis</code>
+            <label>Relais Colis® Eco</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>3.48</tax-exclusive>
+            <tax-inclusive>4.18</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous déposez votre envoi dans un Relais Colis® à partir du 19/10/2021</label>
+              <label>Le Relais Colis® d'arrivée peut être choisi par le destinataire</label>
+              <label>Mise à disposition en Relais Colis® à partir du 26/10/2021 avant 15h. L'envoi reste à disposition pendant 7 jours ouvrés (décomptés du mardi au samedi, indépendamment des jours d'ouverture effective de chaque relais colis)</label>
+              <label>Délai non garanti : le destinataire est informé de la mise à disposition de l'envoi par email</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi : indemnité de 23€ par kg</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>SOGP-C10J4</value>
+                      <value>SOGP-C10A4</value>
+                      <value>SOGP-C10P5</value>
+                      <value>SOGP-C10C7</value>
+                      <value>SOGP-C1011</value>
+                      <value>SOGP-C1194</value>
+                      <value>SOGP-C10C1</value>
+                      <value>SOGP-C1139</value>
+                      <value>SOGP-C1250</value>
+                      <value>SOGP-C1165</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+              <parameter>
+                <code>retrait.pointrelais</code>
+                <label>Choix du point relais d&amp;apos;arrivée</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>SOGP-G10D1</value>
+                      <value>SOGP-G1220</value>
+                      <value>SOGP-G1238</value>
+                      <value>SOGP-G12C8</value>
+                      <value>SOGP-G1180</value>
+                      <value>SOGP-G1257</value>
+                      <value>SOGP-G1160</value>
+                      <value>SOGP-G1269</value>
+                      <value>SOGP-G1037</value>
+                      <value>SOGP-G1156</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option type="array">
+              <option>
+                <code>assurance</code>
+                <name>Assurance Sérénité proposée par AXA</name>
+                <parameter type="array">
+                  <parameter>
+                    <code>assurance.selection</code>
+                    <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                    <type>
+                      <boolean nil="true"/>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.emballage</code>
+                    <label>type d'emballage utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Boîte</value>
+                          <value>Caisse</value>
+                          <value>Bac</value>
+                          <value>Emballage isotherme</value>
+                          <value>Etui</value>
+                          <value>Malle</value>
+                          <value>Sac</value>
+                          <value>Tube</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.materiau</code>
+                    <label>Matériau utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Carton</value>
+                          <value>Bois</value>
+                          <value>Carton blindé</value>
+                          <value>Film opaque</value>
+                          <value>Film Transparent</value>
+                          <value>Métal</value>
+                          <value>Papier</value>
+                          <value>Papier armé</value>
+                          <value>Plastique et carton</value>
+                          <value>Plastique</value>
+                          <value>Plastique opaque</value>
+                          <value>Plastique transparent</value>
+                          <value>Polystyrène</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.protection</code>
+                    <label>Protection intérieure utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Sans protection particulière</value>
+                          <value>Calage papier</value>
+                          <value>Bulles plastiques</value>
+                          <value>Carton antichoc</value>
+                          <value>Coussin air</value>
+                          <value>Coussin mousse</value>
+                          <value>Manchon carton (bouteille)</value>
+                          <value>Manchon mousse (bouteille)</value>
+                          <value>Matelassage</value>
+                          <value>Plaque mousse</value>
+                          <value>Polystyrène</value>
+                          <value>Coussin de calage</value>
+                          <value>Sachet bulles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.fermeture</code>
+                    <label>Fermeture utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Fermeture autocollante</value>
+                          <value>Ruban adhésif</value>
+                          <value>Agrafes</value>
+                          <value>Clous</value>
+                          <value>Collage</value>
+                          <value>Ruban de cerclage</value>
+                          <value>Sangle ou feuillard</value>
+                          <value>Agraphes et cerclage</value>
+                          <value>Clous et cerclage</value>
+                          <value>Ficelles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                </parameter>
+              </option>
+              <option>
+                <code>dematerialise</code>
+                <name>Dematerialise</name>
+                <parameter>
+                  <code>dematerialise.selection</code>
+                  <label>paramètre de sélection de l'option : Option &amp;lt;strong class="light"&gt;SMART&amp;lt;/strong&gt; : vous pouvez désormais recevoir un QR code au lieu d'imprimer votre bordereau d'expédition (option payante).</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <price>
+                  <currency>EUR</currency>
+                  <tax-exclusive>0.41</tax-exclusive>
+                  <tax-inclusive>0.49</tax-inclusive>
+                </price>
+              </option>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>DROPOFF_POINT</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Vous déposez votre envoi dans un Relais Colis® à partir du 19/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>PICKUP_POINT</code>
+              <label>retrait en point relais</label>
+            </type>
+            <date>2021-10-26</date>
+            <label>Le Relais Colis® d'arrivée peut être choisi par le destinataire</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp-chronoshoptoshop.png</logo>
+          </operator>
+          <service>
+            <code>ChronoShoptoShop</code>
+            <label>Chrono Shop2Shop</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>3.75</tax-exclusive>
+            <tax-inclusive>4.5</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous devez déposer votre envoi dans un Relais Pickup de votre choix le 19/10/2021</label>
+              <label>Mise à disposition en Relais Pickup à partir du 25/10/2021 avant 15h. L'envoi reste à disposition pendant 8 jours.</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 460€ par colis.</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>CHRP-3815R</value>
+                      <value>CHRP-6997S</value>
+                      <value>CHRP-4065V</value>
+                      <value>CHRP-9178U</value>
+                      <value>CHRP-4506U</value>
+                      <value>CHRP-5036V</value>
+                      <value>CHRP-2357U</value>
+                      <value>CHRP-6153P</value>
+                      <value>CHRP-6245U</value>
+                      <value>CHRP-4971V</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+              <parameter>
+                <code>retrait.pointrelais</code>
+                <label>Choix du point relais d&amp;apos;arrivée</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>CHRP-2389U</value>
+                      <value>CHRP-7130U</value>
+                      <value>CHRP-0876U</value>
+                      <value>CHRP-3334U</value>
+                      <value>CHRP-6956S</value>
+                      <value>CHRP-3589V</value>
+                      <value>CHRP-3682V</value>
+                      <value>CHRP-5137U</value>
+                      <value>CHRP-7549P</value>
+                      <value>CHRP-4007S</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>DROPOFF_POINT</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Vous devez déposer votre envoi dans un Relais Pickup de votre choix le 19/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>PICKUP_POINT</code>
+              <label>retrait en point relais</label>
+            </type>
+            <date>2021-10-25</date>
+            <label>Mise à disposition en Relais Pickup à partir du 25/10/2021 avant 15h. L'envoi reste à disposition pendant 8 jours.</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>ChronoRelais</code>
+            <label>Chrono Relais</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>7.19</tax-exclusive>
+            <tax-inclusive>8.63</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 19/10/2021</label>
+              <label>Mise à disposition en Chrono Relais® à partir du 20/10/2021 avant 15h. L'envoi reste à disposition pendant 8 jours.</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value>CHRP-POST</value>
+                  </enum>
+                </type>
+              </parameter>
+              <parameter>
+                <code>retrait.pointrelais</code>
+                <label>Choix du point relais d&amp;apos;arrivée</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>CHRP-2389U</value>
+                      <value>CHRP-7130U</value>
+                      <value>CHRP-0876U</value>
+                      <value>CHRP-3334U</value>
+                      <value>CHRP-6956S</value>
+                      <value>CHRP-3589V</value>
+                      <value>CHRP-3682V</value>
+                      <value>CHRP-5137U</value>
+                      <value>CHRP-7549P</value>
+                      <value>CHRP-4007S</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>POST_OFFICE</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 19/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>PICKUP_POINT</code>
+              <label>retrait en point relais</label>
+            </type>
+            <date>2021-10-20</date>
+            <label>Mise à disposition en Chrono Relais® à partir du 20/10/2021 avant 15h. L'envoi reste à disposition pendant 8 jours.</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>Chrono18</code>
+            <label>Chrono18</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>11.83</tax-exclusive>
+            <tax-inclusive>14.2</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 19/10/2021</label>
+              <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 18:00</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+              <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value>CHRP-POST</value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>POST_OFFICE</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 19/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-20</date>
+            <time>18:00</time>
+            <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 18:00</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>ChronoRelaisPickup</code>
+            <label>Chrono Relais</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>15.22</tax-exclusive>
+            <tax-inclusive>18.27</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 20/10/2021 entre 13:00 et 18:00</label>
+              <label>Supplément pour enlèvement</label>
+              <label>Mise à disposition en Chrono Relais® à partir du 21/10/2021 avant 15h. L'envoi reste à disposition pendant 8 jours.</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>retrait.pointrelais</code>
+                <label>Choix du point relais d&amp;apos;arrivée</label>
+                <type>
+                  <enum>
+                    <value type="array">
+                      <value>CHRP-2389U</value>
+                      <value>CHRP-7130U</value>
+                      <value>CHRP-0876U</value>
+                      <value>CHRP-3334U</value>
+                      <value>CHRP-6956S</value>
+                      <value>CHRP-3589V</value>
+                      <value>CHRP-3682V</value>
+                      <value>CHRP-5137U</value>
+                      <value>CHRP-7549P</value>
+                      <value>CHRP-4007S</value>
+                    </value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>COMPANY</code>
+              <label>enl&amp;grave;vement en entreprise</label>
+            </type>
+            <date>2021-10-20</date>
+            <label>Enlèvement à l'adresse de l'expéditeur le 20/10/2021 entre 13:00 et 18:00</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>PICKUP_POINT</code>
+              <label>retrait en point relais</label>
+            </type>
+            <date>2021-10-21</date>
+            <label>Mise à disposition en Chrono Relais® à partir du 21/10/2021 avant 15h. L'envoi reste à disposition pendant 8 jours.</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>Chrono13</code>
+            <label>Chrono13</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>15.68</tax-exclusive>
+            <tax-inclusive>18.82</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 19/10/2021</label>
+              <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 13:00</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+              <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value>CHRP-POST</value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>POST_OFFICE</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 19/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-20</date>
+            <time>13:00</time>
+            <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 13:00</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>DHLE</code>
+            <label>DHL Express</label>
+            <logo>https://resource.boxtal.com/images/carriers/dhle.png</logo>
+          </operator>
+          <service>
+            <code>DomesticExpress</code>
+            <label>Domestic Express</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>15.96</tax-exclusive>
+            <tax-inclusive>19.15</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 12:00 et 19:00</label>
+              <label>Livraison (indicative) au domicile du destinataire le 20/10/2021 avant 11:59</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Les taxes et droits de douane éventuels ne sont pas inclus dans le prix indiqué et sont payables par le destinataire contre échange de l'envoi</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi : indemnité de 23€ par kg sans pouvoir excéder 750€</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>HOME</code>
+            </type>
+            <date>2021-10-19</date>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+            </type>
+            <date>2021-10-20</date>
+            <time>11:59</time>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>Chrono18</code>
+            <label>Chrono18</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>16.67</tax-exclusive>
+            <tax-inclusive>20.01</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 22/10/2021</label>
+              <label>Livraison à l'adresse du destinataire le 23/10/2021 avant 18:00</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+              <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value>CHRP-POST</value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option type="array">
+              <option>
+                <code>assurance</code>
+                <name>Assurance Sérénité proposée par AXA</name>
+                <parameter type="array">
+                  <parameter>
+                    <code>assurance.selection</code>
+                    <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                    <type>
+                      <boolean nil="true"/>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.emballage</code>
+                    <label>type d'emballage utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Boîte</value>
+                          <value>Caisse</value>
+                          <value>Bac</value>
+                          <value>Emballage isotherme</value>
+                          <value>Etui</value>
+                          <value>Malle</value>
+                          <value>Sac</value>
+                          <value>Tube</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.materiau</code>
+                    <label>Matériau utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Carton</value>
+                          <value>Bois</value>
+                          <value>Carton blindé</value>
+                          <value>Film opaque</value>
+                          <value>Film Transparent</value>
+                          <value>Métal</value>
+                          <value>Papier</value>
+                          <value>Papier armé</value>
+                          <value>Plastique et carton</value>
+                          <value>Plastique</value>
+                          <value>Plastique opaque</value>
+                          <value>Plastique transparent</value>
+                          <value>Polystyrène</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.protection</code>
+                    <label>Protection intérieure utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Sans protection particulière</value>
+                          <value>Calage papier</value>
+                          <value>Bulles plastiques</value>
+                          <value>Carton antichoc</value>
+                          <value>Coussin air</value>
+                          <value>Coussin mousse</value>
+                          <value>Manchon carton (bouteille)</value>
+                          <value>Manchon mousse (bouteille)</value>
+                          <value>Matelassage</value>
+                          <value>Plaque mousse</value>
+                          <value>Polystyrène</value>
+                          <value>Coussin de calage</value>
+                          <value>Sachet bulles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.fermeture</code>
+                    <label>Fermeture utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Fermeture autocollante</value>
+                          <value>Ruban adhésif</value>
+                          <value>Agrafes</value>
+                          <value>Clous</value>
+                          <value>Collage</value>
+                          <value>Ruban de cerclage</value>
+                          <value>Sangle ou feuillard</value>
+                          <value>Agraphes et cerclage</value>
+                          <value>Clous et cerclage</value>
+                          <value>Ficelles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                </parameter>
+              </option>
+              <option>
+                <code>saturdaydelivery</code>
+                <name>Supplément pour livraison le samedi</name>
+                <parameter>
+                  <code>saturdaydelivery.selection</code>
+                  <label>paramètre de sélection de l'option : Supplément pour livraison le samedi.</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+              </option>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>POST_OFFICE</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-22</date>
+            <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 22/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-23</date>
+            <time>18:00</time>
+            <label>Livraison à l'adresse du destinataire le 23/10/2021 avant 18:00</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>Chrono18Pickup</code>
+            <label>Chrono18</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>19.4</tax-exclusive>
+            <tax-inclusive>23.28</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 09:00 et 19:00</label>
+              <label>Supplément pour enlèvement</label>
+              <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 18:00</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+              <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>COMPANY</code>
+              <label>enl&amp;grave;vement en entreprise</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 09:00 et 19:00</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-20</date>
+            <time>18:00</time>
+            <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 18:00</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>TNTE</code>
+            <label>TNT Express</label>
+            <logo>https://resource.boxtal.com/images/carriers/tnte.png</logo>
+          </operator>
+          <service>
+            <code>ExpressNational</code>
+            <label>13:00 Express</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>19.77</tax-exclusive>
+            <tax-inclusive>23.73</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 14:30 et 18:00.</label>
+              <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 13:00 ou en début d'après midi en zone rurale.</label>
+              <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+              <label>Redevance Sécurité</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&lt;ul&gt;&lt;li&gt;Transport routier international : 8,33 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;li&gt;Transport aérien : 17 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;/ul&gt;&lt;sup&gt;*&lt;/sup&gt;valeur du DTS = 1,12€ au 7 juin 2007.</label>
+              <label>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>COMPANY</code>
+              <label>enl&amp;grave;vement en entreprise</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 14:30 et 18:00.</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-20</date>
+            <time>13:00</time>
+            <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 13:00 ou en début d'après midi en zone rurale.</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>Chrono13Samedi</code>
+            <label>Chrono13Samedi</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>20.8</tax-exclusive>
+            <tax-inclusive>24.96</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 22/10/2021</label>
+              <label>Livraison à l'adresse du destinataire le 23/10/2021 avant 13:00</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+              <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>depot.pointrelais</code>
+                <label>Choix du point relais de départ</label>
+                <type>
+                  <enum>
+                    <value>CHRP-POST</value>
+                  </enum>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option type="array">
+              <option>
+                <code>assurance</code>
+                <name>Assurance Sérénité proposée par AXA</name>
+                <parameter type="array">
+                  <parameter>
+                    <code>assurance.selection</code>
+                    <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                    <type>
+                      <boolean nil="true"/>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.emballage</code>
+                    <label>type d'emballage utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Boîte</value>
+                          <value>Caisse</value>
+                          <value>Bac</value>
+                          <value>Emballage isotherme</value>
+                          <value>Etui</value>
+                          <value>Malle</value>
+                          <value>Sac</value>
+                          <value>Tube</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.materiau</code>
+                    <label>Matériau utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Carton</value>
+                          <value>Bois</value>
+                          <value>Carton blindé</value>
+                          <value>Film opaque</value>
+                          <value>Film Transparent</value>
+                          <value>Métal</value>
+                          <value>Papier</value>
+                          <value>Papier armé</value>
+                          <value>Plastique et carton</value>
+                          <value>Plastique</value>
+                          <value>Plastique opaque</value>
+                          <value>Plastique transparent</value>
+                          <value>Polystyrène</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.protection</code>
+                    <label>Protection intérieure utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Sans protection particulière</value>
+                          <value>Calage papier</value>
+                          <value>Bulles plastiques</value>
+                          <value>Carton antichoc</value>
+                          <value>Coussin air</value>
+                          <value>Coussin mousse</value>
+                          <value>Manchon carton (bouteille)</value>
+                          <value>Manchon mousse (bouteille)</value>
+                          <value>Matelassage</value>
+                          <value>Plaque mousse</value>
+                          <value>Polystyrène</value>
+                          <value>Coussin de calage</value>
+                          <value>Sachet bulles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.fermeture</code>
+                    <label>Fermeture utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Fermeture autocollante</value>
+                          <value>Ruban adhésif</value>
+                          <value>Agrafes</value>
+                          <value>Clous</value>
+                          <value>Collage</value>
+                          <value>Ruban de cerclage</value>
+                          <value>Sangle ou feuillard</value>
+                          <value>Agraphes et cerclage</value>
+                          <value>Clous et cerclage</value>
+                          <value>Ficelles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                </parameter>
+              </option>
+              <option>
+                <code>saturdaydelivery</code>
+                <name>Supplément pour livraison le samedi</name>
+                <parameter>
+                  <code>saturdaydelivery.selection</code>
+                  <label>paramètre de sélection de l'option : Supplément pour livraison le samedi.</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+              </option>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>POST_OFFICE</code>
+              <label>dépôt en point relais</label>
+            </type>
+            <date>2021-10-22</date>
+            <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le 22/10/2021</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-23</date>
+            <time>13:00</time>
+            <label>Livraison à l'adresse du destinataire le 23/10/2021 avant 13:00</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>CHRP</code>
+            <label>Chronopost</label>
+            <logo>https://resource.boxtal.com/images/carriers/chrp.png</logo>
+          </operator>
+          <service>
+            <code>Chrono18Pickup</code>
+            <label>Chrono18</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>24.31</tax-exclusive>
+            <tax-inclusive>29.17</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 22/10/2021 entre 09:00 et 19:00</label>
+              <label>Supplément pour enlèvement</label>
+              <label>Livraison à l'adresse du destinataire le 23/10/2021 avant 18:00</label>
+              <label>Délai non garanti</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+              <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option type="array">
+              <option>
+                <code>assurance</code>
+                <name>Assurance Sérénité proposée par AXA</name>
+                <parameter type="array">
+                  <parameter>
+                    <code>assurance.selection</code>
+                    <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                    <type>
+                      <boolean nil="true"/>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.emballage</code>
+                    <label>type d'emballage utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Boîte</value>
+                          <value>Caisse</value>
+                          <value>Bac</value>
+                          <value>Emballage isotherme</value>
+                          <value>Etui</value>
+                          <value>Malle</value>
+                          <value>Sac</value>
+                          <value>Tube</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.materiau</code>
+                    <label>Matériau utilisé</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Carton</value>
+                          <value>Bois</value>
+                          <value>Carton blindé</value>
+                          <value>Film opaque</value>
+                          <value>Film Transparent</value>
+                          <value>Métal</value>
+                          <value>Papier</value>
+                          <value>Papier armé</value>
+                          <value>Plastique et carton</value>
+                          <value>Plastique</value>
+                          <value>Plastique opaque</value>
+                          <value>Plastique transparent</value>
+                          <value>Polystyrène</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.protection</code>
+                    <label>Protection intérieure utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Sans protection particulière</value>
+                          <value>Calage papier</value>
+                          <value>Bulles plastiques</value>
+                          <value>Carton antichoc</value>
+                          <value>Coussin air</value>
+                          <value>Coussin mousse</value>
+                          <value>Manchon carton (bouteille)</value>
+                          <value>Manchon mousse (bouteille)</value>
+                          <value>Matelassage</value>
+                          <value>Plaque mousse</value>
+                          <value>Polystyrène</value>
+                          <value>Coussin de calage</value>
+                          <value>Sachet bulles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                  <parameter>
+                    <code>assurance.fermeture</code>
+                    <label>Fermeture utilisée</label>
+                    <type>
+                      <enum>
+                        <value type="array">
+                          <value>Fermeture autocollante</value>
+                          <value>Ruban adhésif</value>
+                          <value>Agrafes</value>
+                          <value>Clous</value>
+                          <value>Collage</value>
+                          <value>Ruban de cerclage</value>
+                          <value>Sangle ou feuillard</value>
+                          <value>Agraphes et cerclage</value>
+                          <value>Clous et cerclage</value>
+                          <value>Ficelles</value>
+                        </value>
+                      </enum>
+                    </type>
+                  </parameter>
+                </parameter>
+              </option>
+              <option>
+                <code>saturdaydelivery</code>
+                <name>Supplément pour livraison le samedi</name>
+                <parameter>
+                  <code>saturdaydelivery.selection</code>
+                  <label>paramètre de sélection de l'option : Supplément pour livraison le samedi.</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+              </option>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>COMPANY</code>
+              <label>enl&amp;grave;vement en entreprise</label>
+            </type>
+            <date>2021-10-22</date>
+            <label>Enlèvement à l'adresse de l'expéditeur le 22/10/2021 entre 09:00 et 19:00</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-23</date>
+            <time>18:00</time>
+            <label>Livraison à l'adresse du destinataire le 23/10/2021 avant 18:00</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>TNTE</code>
+            <label>TNT Express</label>
+            <logo>https://resource.boxtal.com/images/carriers/tnte.png</logo>
+          </operator>
+          <service>
+            <code>ExpressNationalPremium12H</code>
+            <label>National Premium 12H</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>24.99</tax-exclusive>
+            <tax-inclusive>29.99</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 14:30 et 18:00.</label>
+              <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 12:00 ou en début d'après midi en zone rurale.</label>
+              <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+              <label>Redevance Sécurité</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&lt;ul&gt;&lt;li&gt;Transport routier international : 8,33 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;li&gt;Transport aérien : 17 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;/ul&gt;&lt;sup&gt;*&lt;/sup&gt;valeur du DTS = 1,12€ au 7 juin 2007.</label>
+              <label>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>COMPANY</code>
+              <label>enl&amp;grave;vement en entreprise</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 14:30 et 18:00.</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-20</date>
+            <time>12:00</time>
+            <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 12:00 ou en début d'après midi en zone rurale.</label>
+          </delivery>
+        </offer>
+        <offer>
+          <mode>COM</mode>
+          <url nil="true"/>
+          <operator>
+            <code>TNTE</code>
+            <label>TNT Express</label>
+            <logo>https://resource.boxtal.com/images/carriers/tnte.png</logo>
+          </operator>
+          <service>
+            <code>ExpressNationalPremium10H</code>
+            <label>National Premium 10H</label>
+          </service>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>36.31</tax-exclusive>
+            <tax-inclusive>43.57</tax-inclusive>
+          </price>
+          <alert nil="true"/>
+          <characteristics>
+            <label type="array">
+              <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 14:30 et 18:00.</label>
+              <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 10:00 ou en début d'après midi en zone rurale.</label>
+              <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+              <label>Redevance Sécurité</label>
+              <label>Livraison contre signature ou cachet commercial</label>
+              <label>Suivi en ligne possible</label>
+              <label>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&lt;ul&gt;&lt;li&gt;Transport routier international : 8,33 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;li&gt;Transport aérien : 17 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;/ul&gt;&lt;sup&gt;*&lt;/sup&gt;valeur du DTS = 1,12€ au 7 juin 2007.</label>
+              <label>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+            </label>
+          </characteristics>
+          <mandatory-informations>
+            <parameter type="array">
+              <parameter>
+                <code>colis.description</code>
+                <label>description du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>colis.valeur</code>
+                <label>valeur déclarée du contenu de l&amp;apos;envoi</label>
+                <type>
+                  <float nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.civilite</code>
+                <label>civilite de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.nom</code>
+                <label>nom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.prenom</code>
+                <label>prenom de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.adresse</code>
+                <label>adresse de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>expediteur.email</code>
+                <label>email de l&amp;apos;expéditeur</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.civilite</code>
+                <label>civilite du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.nom</code>
+                <label>nom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.prenom</code>
+                <label>prenom du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.adresse</code>
+                <label>adresse du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+              <parameter>
+                <code>destinataire.email</code>
+                <label>email du destinataire</label>
+                <type>
+                  <string nil="true"/>
+                </type>
+              </parameter>
+            </parameter>
+          </mandatory-informations>
+          <options>
+            <option>
+              <code>assurance</code>
+              <name>Assurance Sérénité proposée par AXA</name>
+              <parameter type="array">
+                <parameter>
+                  <code>assurance.selection</code>
+                  <label>paramètre de sélection de l'option : Assurance Sérénité proposée par AXA</label>
+                  <type>
+                    <boolean nil="true"/>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.emballage</code>
+                  <label>type d'emballage utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Boîte</value>
+                        <value>Caisse</value>
+                        <value>Bac</value>
+                        <value>Emballage isotherme</value>
+                        <value>Etui</value>
+                        <value>Malle</value>
+                        <value>Sac</value>
+                        <value>Tube</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.materiau</code>
+                  <label>Matériau utilisé</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Carton</value>
+                        <value>Bois</value>
+                        <value>Carton blindé</value>
+                        <value>Film opaque</value>
+                        <value>Film Transparent</value>
+                        <value>Métal</value>
+                        <value>Papier</value>
+                        <value>Papier armé</value>
+                        <value>Plastique et carton</value>
+                        <value>Plastique</value>
+                        <value>Plastique opaque</value>
+                        <value>Plastique transparent</value>
+                        <value>Polystyrène</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.protection</code>
+                  <label>Protection intérieure utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Sans protection particulière</value>
+                        <value>Calage papier</value>
+                        <value>Bulles plastiques</value>
+                        <value>Carton antichoc</value>
+                        <value>Coussin air</value>
+                        <value>Coussin mousse</value>
+                        <value>Manchon carton (bouteille)</value>
+                        <value>Manchon mousse (bouteille)</value>
+                        <value>Matelassage</value>
+                        <value>Plaque mousse</value>
+                        <value>Polystyrène</value>
+                        <value>Coussin de calage</value>
+                        <value>Sachet bulles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+                <parameter>
+                  <code>assurance.fermeture</code>
+                  <label>Fermeture utilisée</label>
+                  <type>
+                    <enum>
+                      <value type="array">
+                        <value>Fermeture autocollante</value>
+                        <value>Ruban adhésif</value>
+                        <value>Agrafes</value>
+                        <value>Clous</value>
+                        <value>Collage</value>
+                        <value>Ruban de cerclage</value>
+                        <value>Sangle ou feuillard</value>
+                        <value>Agraphes et cerclage</value>
+                        <value>Clous et cerclage</value>
+                        <value>Ficelles</value>
+                      </value>
+                    </enum>
+                  </type>
+                </parameter>
+              </parameter>
+            </option>
+          </options>
+          <insurance>
+            <currency>EUR</currency>
+            <tax-exclusive>0.25</tax-exclusive>
+            <tax-inclusive>0.25</tax-inclusive>
+          </insurance>
+          <collection>
+            <type>
+              <code>COMPANY</code>
+              <label>enl&amp;grave;vement en entreprise</label>
+            </type>
+            <date>2021-10-19</date>
+            <label>Enlèvement à l'adresse de l'expéditeur le 19/10/2021 entre 14:30 et 18:00.</label>
+          </collection>
+          <delivery>
+            <type>
+              <code>HOME</code>
+              <label>livraison à domicile</label>
+            </type>
+            <date>2021-10-20</date>
+            <time>10:00</time>
+            <label>Livraison à l'adresse du destinataire le 20/10/2021 avant 10:00 ou en début d'après midi en zone rurale.</label>
+          </delivery>
+        </offer>
+      </offer>
+    </shipment>
+  </cotation>
+</hash>
